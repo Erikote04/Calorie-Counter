@@ -50,6 +50,8 @@ function calculateCalories(e) {
     if (isError) {
         return;
     }
+
+    consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories;
 }
 
 function getCaloriesFromInputs(list) {
