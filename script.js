@@ -44,6 +44,7 @@ function getCaloriesFromInputs(list) {
         }
         calories += Number(currVal);
     }
+    return calories;
 }
 
 addEntryButton.addEventListener("click", addEntry);
