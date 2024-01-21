@@ -81,7 +81,7 @@ function getCaloriesFromInputs(list) {
 }
 
 function clearForm() {
-    inputContainers = document.querySelectorAll(".input-container");
+    inputContainers = Array.from(document.querySelectorAll('.input-container'));
 }
 
 addEntryButton.addEventListener("click", addEntry);
