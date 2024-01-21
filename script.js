@@ -87,6 +87,8 @@ function clearForm() {
         inputContainers[i].innerHTML = "";
         
     }
+
+    budgetNumberInput.value = "";
 }
 
 addEntryButton.addEventListener("click", addEntry);
