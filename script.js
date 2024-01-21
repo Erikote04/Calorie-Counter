@@ -54,7 +54,8 @@ function calculateCalories(e) {
     const consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories;
     const remainingCalories = budgetCalories - consumedCalories + exerciseCalories;
     const surplusOrDeficit = remainingCalories >= 0 ? "Surplus" : "Deficit";
-    output.innerHTML = `<span class="${surplusOrDeficit.toLowerCase()}">${remainingCalories} Calorie ${surplusOrDeficit}</span>`;
+    output.innerHTML = `<span class="${surplusOrDeficit.toLowerCase()}">${Math.abs(remainingCalories)} Calorie ${surplusOrDeficit}</span>
+    <hr>`;
 }
 
 function getCaloriesFromInputs(list) {
