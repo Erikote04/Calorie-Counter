@@ -80,5 +80,9 @@ function getCaloriesFromInputs(list) {
     return calories;
 }
 
+function clearForm() {
+    
+}
+
 addEntryButton.addEventListener("click", addEntry);
 calorieCounter.addEventListener("submit", calculateCalories);
