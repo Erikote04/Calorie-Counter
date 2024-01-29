@@ -2,6 +2,8 @@
 
 Welcome to the Calorie Counter, a simple tool to help you manage your daily calorie intake. This guide provides an overview of the logic and instructions on how to use the Calorie Counter.
 
+<img width="700" alt="calorie counter" src="https://github.com/Erikote04/Calorie-Counter/assets/126704751/d71e83d7-ec04-47ea-a694-527f90122509">
+
 ## How to Use
 
 1. **Set Your Daily Calorie Budget:**
